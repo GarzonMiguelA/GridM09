@@ -1,0 +1,40 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: auto;
+    gap: 10px; 
+}
+
+.verde_top {
+    background-color: green;
+    grid-row: 1;
+    height: 50px; /* Ajusta la altura según lo necesites */
+
+}
+
+
+.barra-roja {
+    background-color: red;
+    grid-column: 1;
+    height: 800px;
+    position: fixed;
+    top: 5;
+    left: 6; 
+    width: 200px;
+}
+
+.contenido{
+    background-color:aliceblue;
+    height: 800px;
+    width: 1900px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.magenta{
+    background-color: darkmagenta;
+    grid-row: 1;
+    height: 50px; /* Ajusta la altura según lo necesites */
+    
+}
